@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30 mai 2024, 17:42:16
+    Author     : mody.barry
+*/
+  body {
+                background-image: url('chemin/vers/votre/image.jpg');
+                background-size: cover; /* Ajuster la taille de l'image pour couvrir l'ensemble de la page */
+                background-repeat: no-repeat; /* Empêcher la répétition de l'image */
+            }
+
+            /* Style personnalisé pour le bouton "Ajouter" */
+            .btn-ajouter {
+                background-color: #4CAF50; /* Couleur de fond */
+                color: white; /* Couleur du texte */
+                padding-right: 17px; /* Espacement à l'intérieur du bouton */
+                border-right-width: 15px;
+                border-left-width: 15px;
+                padding-left: 17px;
+                /* Suppression de la bordure */
+                border-radius: 10px; /* Coins arrondis */
+                cursor: pointer; /* Curseur pointeur au survol */
+                text-align: center; /* Alignement du texte */
+                text-decoration: none; /* Suppression de la décoration du texte */
+                display: inline-block; /* Affichage en ligne */
+                font-size: 40px; /* Taille de la police */
+                transition-duration: 0.4s; /* Durée de la transition */
+            }
+
+            /* Effet de survol pour le bouton "Ajouter" */
+            .btn-ajouter:hover {
+                background-color: #45a049; /* Couleur de fond au survol */
+            }
