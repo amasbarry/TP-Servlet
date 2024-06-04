@@ -24,7 +24,7 @@ public class ContactServlet extends HttpServlet {
     public void init() throws ServletException {
         super.init();
         // Ajouter un contact par défaut pour tester
-        contacts.add(new Contact(1, "Amidou", "123456789", "amidou@example.com", "Développeur"));
+        contacts.add(new Contact(1, "Mody", "77773034", "modybarry50@gmail.com", "Développeur"));
     }
 
     @Override
